@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Faré Café</title>
+<style>
+body{font-family:Arial,sans-serif;margin:0;color:#222;background:#fff;line-height:1.5;}
+header,footer{background:#f4e9e6;padding:20px;text-align:center;}
+h1,h2,h3{margin:0.5em 0;}
+nav a{margin:0 10px;text-decoration:none;color:#222;}
+.hero{padding:40px;text-align:center;background:#fdeee6;}
+.hero button{margin:5px;padding:10px 15px;background:#d77f6c;color:#fff;border:none;border-radius:6px;}
+section{padding:30px;}
+.menu-item{border:1px solid #eee;padding:15px;margin:10px 0;border-radius:10px;}
+.gallery img{width:100%;max-width:200px;margin:5px;border-radius:10px;}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Faré Café</h1>
+<nav>
+<a href="#about">About</a> | <a href="#menu">Menu</a> | <a href="#gallery">Gallery</a> | <a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h2>Specialty Coffee & Fresh Snacks</h2>
+<p>Open daily in Dulwich Hill</p>
+<button onclick="alert('Menu coming soon!')">See Menu</button>
+<button onclick="alert('Reserve via phone or email')">Reserve</button>
+</section>
+
+<section id="about">
+<h2>About</h2>
+<p>Faré is a neighbourhood café serving ethically-sourced coffee and freshly prepared snacks.</p>
+</section>
+
+<section id="menu">
+<h2>Menu Highlights</h2>
+<div class="menu-item"><h3>Flat White</h3><p>$4.50</p></div>
+<div class="menu-item"><h3>Sourdough Toast</h3><p>$8.00</p></div>
+<div class="menu-item"><h3>Daily Pastry</h3><p>$4.00</p></div>
+</section>
+
+<section id="gallery">
+<h2>Gallery</h2>
+<img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=60" alt="Coffee">
+<img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=60" alt="Pastry">
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>Email: <a href="mailto:hello@farecafe.example">hello@farecafe.example</a></p>
+<p>Phone: [YOUR PHONE]</p>
+</section>
+
+<footer>
+<p>&copy; Faré Café — Dulwich Hill</p>
+</footer>
+
+<script>
+// Simple JS for demo buttons
+console.log("Website loaded!");
+</script>
+
+</body>
+</html>
